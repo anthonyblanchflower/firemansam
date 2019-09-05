@@ -18,11 +18,7 @@ For creating a distribution see the Deployment section of this document.
 If you do not have git installed, install it from https://git-scm.com/downloads.
 If you do not have pip3 installed, install it from https://pip.pypa.io.
 
-Make sure you have the latest versions of setuptools and wheel installed:
-
-```
-python3 -m pip3 install --user --upgrade setuptools wheel
-```
+Make sure you have the latest versions of setuptools and wheel installed.
 
 If you have trouble installing setuptools and wheel visit
 https://packaging.python.org/tutorials/installing-packages/
@@ -33,6 +29,14 @@ firemansam can be installed as a python module using the pip installer.
 
 ```
 $ pip3 install git+git://github.com/anthonyblanchflower/firemansam.git
+```
+
+### Uninstalling
+
+firemansam can be uninstalled as a python module using the pip installer.
+
+```
+$ pip3 uninstall firemansam
 ```
 
 ## Documentation
