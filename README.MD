@@ -45,22 +45,24 @@ These instructions will demonstrate how to call functions from the fireman modul
 
 ### Using firemansam
 
-First import module:
+First import modules:
 
 ```
-from firemansam import functions as firemansam
+from firemansam.firedir import firedir
+from firemansam.firecheck import firecheck
+from firemansam.firedir import firedict
 ```
 
 Now you can use the firemansam functions.
 
 ### Module functions
 
-*firemansam.firecheck(local filename or file path)*
+*firecheck(local filename or file path)*
 
 Return the fix recommendations from lib2to3 as a text string.
 
 ```
-firemansam.firecheck(example.py)
+firecheck(example.py)
 ```
 
 returns
@@ -73,12 +75,12 @@ returns
 +print("not compatible")
 ```
 
-*firemansam.firedict(local filename or file path)*
+*firedict(local filename or file path)*
 
 Return the fix recommendations from lib2to3 as a dictionary with a key value containing the scale of fixes.
 
 ```
-firemansam.firedict(/example/example.py)
+firedict(/example/example.py)
 ```
 
 returns
@@ -87,12 +89,12 @@ returns
 {'file': '/example/example.py', 'scale': 4}
 ```
 
-*firemansam.firedir(directory)*
+*firedir(directory)*
 
 Return a list containing a dictionary for every file in the directory with a *.py extension. Each dictionary contains the filename and the scale of fixes for that file.
 
 ```
-firemansam.firedir(/example)
+firedir(/example)
 ```
 
 returns
