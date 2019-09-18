@@ -7,6 +7,6 @@ setup(
     test_suite='firemansam.tests',
     url='https://github.com/anthonyblanchflower/firemansam',
     author='Anthony Blanchflower',
-    author_email='anthony.blanchflower@comparethemarket.com',
+    author_email='anthony.blanchflower@btinternet.com',
     description='Functions for extracting fixes data from directories containing py files'
 )
