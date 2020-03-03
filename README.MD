@@ -1,6 +1,6 @@
 # Fireman Sam
 
-*lib2to3 analysis functions*
+*lib2to3 static analysis functions*
 
 ## Background
 
